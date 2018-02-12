@@ -52,14 +52,14 @@ header{
 /* end of skills */
 /*  About  */
 
-#about{
+/* #about{ */
   /* position: absolute; */
   /* top:50%; */
   /* left:50%; */
   /* transform:translate( -600px, -160px); */
-  height:400px;
+  /* height:400px;
   width: 1300px;
-  background-color: #114B5F ;
+  background-color: #114B5F ; */
   /* display: flex; */
   /* box-shadow:  */
 }
@@ -72,12 +72,12 @@ header{
   flex-direction: column;
 
 } */
-#about .pic{
+/* #about .pic{ */
   /* width:calc(50% + 50px); */
-  height:600px;
+  /* height:600px; */
   /* background:whitw ; */
   /* box-sizing: border-box; */
-  border-left: 100px solid #114B5F ;
+  /* border-left: 100px solid #114B5F ;
   border-bottom: 600px solid transparent;
   background: url(banner.jpg);
   background-attachment: fixed;
@@ -91,6 +91,39 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+} */
+
+
+/* end of about */
+/* contact */
+
+#contact{
+  padding:20px;
+  background-color: whitesmoke;
+}
+#contact .title{
+  color:#FF6978 ;
+}
+#contact .form-control{
+  font-size: 20px;
+  border-radius: .2px;
+}
+#contact button{
+  margin-bottom: 20px
+  font-size: 30px;
+  width: 300px;
+  margin: 0px auto;
+  display: inline-block;
+  border: 3px solid #114B5F;
+  color: #114B5F;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+button:hover,
+button:focus{
+  color:white;
+  background-color: #114B5F;
 }
 
 
@@ -118,4 +151,4 @@ header{
 
 
 
-/* end of about */
+/* end of  contact*/
